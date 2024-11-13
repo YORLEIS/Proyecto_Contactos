@@ -1,0 +1,138 @@
+/* Estilos para los títulos */
+.title-container {
+    background-color: #3498db;
+    color: #1a1717;
+    text-align: center;
+    padding: 20px;
+}
+
+.title-container h2 {
+    font-size: 36px;
+}
+
+.title-container h4 {
+    font-size: 24px;
+    
+}
+
+
+
+/* Estilos para el formulario */
+.form-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    margin: 0 auto; /* Esto centra el formulario horizontalmente */
+}
+
+.form-container h1 {
+    color: #007bff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control,
+select.form-control,
+textarea.form-control {
+    width: 100%;
+    padding: 20px; /* Ajusta el padding según tus preferencias */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+}
+
+.form-control, textarea {
+    font-weight: bold;
+}
+
+select.form-control,
+textarea.form-control {
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos generales */
+.container {
+    margin: 30px auto; /* Esto centra verticalmente con margen superior e inferior */
+}
+
+body {
+    background: linear-gradient(to bottom, #a175d4, #cc59db);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('../img/imagen.jpg');
+}
+
+
+
+.container-title {
+    background-position: center center;
+   
+    background-repeat: no-repeat;
+    background-size:contain;
+    color: #1a1717;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.container-title h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container-title h4 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+select.form-control {
+    width: 100%;
+    padding: 5px; /* Reduzcamos el padding para permitir que el valor seleccionado se muestre */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    line-height: 1; /* Ajustar el line-height */
+}
+
+/* Opcionalmente, puedes ajustar el padding solo en los lados izquierdo y derecho para mantener un mayor espacio superior e inferior */
+select.form-control {
+    width: 100%;
+    padding: 5px 10px; /* 5px arriba/abajo y 10px izquierda/derecha */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+.enviado{
+    margin-top: 40px;
+    background-color: #d8dfe7;
+    
+}
+
+.lead {
+    font-weight: bold;
+
+}
